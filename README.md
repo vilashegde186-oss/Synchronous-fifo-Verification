@@ -37,21 +37,5 @@ Verification Checks:
 - FIFO Empty condition
 - Simultaneous write/read prevention
 
-Expected Output:
-
-RESET DEASSERTED
-
-PASS : Expected=129 Actual=129
-PASS : Expected=238 Actual=238
-PASS : Expected=5 Actual=5
-...
-
-==================================
----------FIFO SCOREBOARD----------
-Total Transactions : 30
-Passed             : 30
-Failed             : 0
-==================================
-
 Result:
 The testbench automatically generates random transactions, verifies FIFO behaviour using a reference model, reports pass/fail results through the scoreboard, and collects functional coverage for important FIFO scenarios.
